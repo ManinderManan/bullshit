@@ -460,12 +460,20 @@ h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+/* #landingContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+} */
+
 #hero {
   width: 100%;
   height: 90vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/FFFFFF.png") top center;
   background-size: cover;
-  margin-bottom: -200px;
+  margin-bottom: 200px;
 }
 
 #hero .container {
@@ -482,7 +490,7 @@ h6 {
 }
 
 #hero h2 {
-  color: #fff;
+  color: #000;
   margin: 10px 0 0 0;
   font-size: 24px;
 }
@@ -503,7 +511,7 @@ h6 {
 }
 
 #hero .btn-get-started:hover {
-  background: #3291e6;
+  background: #5F5749;
 }
 
 @media (min-width: 1024px) {
@@ -563,7 +571,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #2c4964;
+  color: #fff;
 }
 
 .section-title h2::before {
@@ -583,7 +591,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #1977cc;
+  background: #ffffff;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -652,70 +660,6 @@ section {
   .breadcrumbs ol li {
     display: inline-block;
   }
-}
-
-/*--------------------------------------------------------------
-# Why Us
---------------------------------------------------------------*/
-.why-us .content {
-  padding: 30px;
-  background: #1977cc;
-  border-radius: 4px;
-  color: #fff;
-}
-
-.why-us .content h3 {
-  font-weight: 700;
-  font-size: 34px;
-  margin-bottom: 30px;
-}
-
-.why-us .content p {
-  margin-bottom: 30px;
-}
-
-.why-us .content .more-btn {
-  display: inline-block;
-  background: rgba(255, 255, 255, 0.2);
-  padding: 6px 30px 8px 30px;
-  color: #fff;
-  border-radius: 50px;
-  transition: all ease-in-out 0.4s;
-}
-
-.why-us .content .more-btn i {
-  font-size: 14px;
-}
-
-.why-us .content .more-btn:hover {
-  color: #1977cc;
-  background: #fff;
-}
-
-.why-us .icon-boxes .icon-box {
-  text-align: center;
-  border-radius: 10px;
-  background: #fff;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  padding: 40px 30px;
-  width: 100%;
-}
-
-.why-us .icon-boxes .icon-box i {
-  font-size: 40px;
-  color: #1977cc;
-  margin-bottom: 30px;
-}
-
-.why-us .icon-boxes .icon-box h4 {
-  font-size: 20px;
-  font-weight: 700;
-  margin: 0 0 30px 0;
-}
-
-.why-us .icon-boxes .icon-box p {
-  font-size: 15px;
-  color: #848484;
 }
 
 /*--------------------------------------------------------------
@@ -872,52 +816,6 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Counts
---------------------------------------------------------------*/
-.counts {
-  background: #f1f7fd;
-  padding: 70px 0 60px;
-}
-
-.counts .count-box {
-  padding: 30px 30px 25px 30px;
-  width: 100%;
-  position: relative;
-  text-align: center;
-  background: #fff;
-}
-
-.counts .count-box i {
-  position: absolute;
-  top: -25px;
-  left: 50%;
-  transform: translateX(-50%);
-  font-size: 20px;
-  background: #1977cc;
-  color: #fff;
-  border-radius: 50px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 48px;
-  height: 48px;
-}
-
-.counts .count-box span {
-  font-size: 36px;
-  display: block;
-  font-weight: 600;
-  color: #082744;
-}
-
-.counts .count-box p {
-  padding: 0;
-  margin: 0;
-  font-family: "Raleway", sans-serif;
-  font-size: 14px;
-}
-
-/*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
 .services .icon-box {
@@ -931,7 +829,7 @@ section {
   margin: 0 auto;
   width: 64px;
   height: 64px;
-  background: #1977cc;
+  background: #3e6c61;
   border-radius: 5px;
   transition: all 0.3s ease-out 0s;
   display: flex;
